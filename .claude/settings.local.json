@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mv:*)",
+      "Bash(tree:*)",
+      "Bash(ls:*)",
+      "Bash(cd:*)",
+      "Bash(find:*)",
+      "WebFetch(domain:vote.nyc)",
+      "Bash(Rscript scripts/01_data_prep/01_download_nyc_election_data.R)",
+      "Bash(Rscript scripts/01_data_prep/02_download_ad34_enr_results.R)",
+      "WebFetch(domain:enr.boenyc.gov)",
+      "WebFetch(domain:www.vote.nyc)",
+      "Bash(Rscript:*)",
+      "Bash(cat:*)",
+      "WebSearch",
+      "Bash(curl:*)",
+      "WebFetch(domain:nycreligion.info)",
+      "WebFetch(domain:hifld-geoplatform.opendata.arcgis.com)",
+      "WebFetch(domain:www.nber.org)",
+      "WebFetch(domain:prri.org)",
+      "WebFetch(domain:www.openicpsr.org)",
+      "Bash(git --version:*)",
+      "Bash(git config:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

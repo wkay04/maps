@@ -1,0 +1,401 @@
+"concept","total_vars","bg_available"
+"Age and Enrollment Status by Computer Ownership and Internet Subscription Status",21,TRUE
+"Age by Language Spoken at Home by Ability to Speak English for the Population 5 Years and Over",67,TRUE
+"Age by Presence of a Computer and Types of Internet Subscription in Household",19,TRUE
+"Age by Veteran Status by Poverty Status in the Past 12 Months by Disability Status for the Civilian Population 18 Years and Over",31,TRUE
+"Age of Householder by Gross Rent as a Percentage of Household Income in the Past 12 Months",29,TRUE
+"Age of Householder by Household Income in the Past 12 Months (in 2022 Inflation-Adjusted Dollars)",69,TRUE
+"Age of Householder by Meals Included in Rent",13,TRUE
+"Age of Householder by Selected Monthly Owner Costs as a Percentage of Household Income in the Past 12 Months",29,TRUE
+"Age of Own Children Under 18 Years in Families and Subfamilies by Living Arrangements by Employment Status of Parents",27,TRUE
+"Aggregate Contract Rent (Dollars)",1,TRUE
+"Aggregate Earnings in the Past 12 Months (in 2022 Inflation-Adjusted Dollars) by Sex by Work Experience for the Population 16 Years and Over With Earnings",7,TRUE
+"Aggregate Earnings in the Past 12 Months (in 2022 Inflation-Adjusted Dollars) for Households",1,TRUE
+"Aggregate Family Income in the Past 12 Months (in 2022 Inflation-Adjusted Dollars)",1,TRUE
+"Aggregate Gross Rent (Dollars)",1,TRUE
+"Aggregate Gross Rent (Dollars) by Meals Included in Rent",3,TRUE
+"Aggregate Gross Rent (Dollars) by Units in Structure",8,TRUE
+"Aggregate Household Income in the Past 12 Months (in 2022 Inflation-Adjusted Dollars)",1,TRUE
+"Aggregate Household Income in the Past 12 Months (in 2022 Inflation-Adjusted Dollars) (American Indian and Alaska Native Alone Householder)",1,TRUE
+"Aggregate Household Income in the Past 12 Months (in 2022 Inflation-Adjusted Dollars) (Asian Alone Householder)",1,TRUE
+"Aggregate Household Income in the Past 12 Months (in 2022 Inflation-Adjusted Dollars) (Black or African American Alone Householder)",1,TRUE
+"Aggregate Household Income in the Past 12 Months (in 2022 Inflation-Adjusted Dollars) (Hispanic or Latino Householder)",1,TRUE
+"Aggregate Household Income in the Past 12 Months (in 2022 Inflation-Adjusted Dollars) (Some Other Race Alone Householder)",1,TRUE
+"Aggregate Household Income in the Past 12 Months (in 2022 Inflation-Adjusted Dollars) (Two or More Races Householder)",1,TRUE
+"Aggregate Household Income in the Past 12 Months (in 2022 Inflation-Adjusted Dollars) (White Alone Householder)",1,TRUE
+"Aggregate Household Income in the Past 12 Months (in 2022 Inflation-Adjusted Dollars) (White Alone, Not Hispanic or Latino Householder)",1,TRUE
+"Aggregate Household Income in the Past 12 Months (in 2022 Inflation-Adjusted Dollars) by Age of Householder",5,TRUE
+"Aggregate Income Deficit (Dollars) in the Past 12 Months for Families by Family Type",5,TRUE
+"Aggregate Income in the Past 12 Months (in 2022 Inflation-Adjusted Dollars)",1,TRUE
+"Aggregate Income in the Past 12 Months (in 2022 Inflation-Adjusted Dollars) for the Population 15 Years and Over (American Indian and Alaska Native Alone)",1,TRUE
+"Aggregate Income in the Past 12 Months (in 2022 Inflation-Adjusted Dollars) for the Population 15 Years and Over (Asian Alone)",1,TRUE
+"Aggregate Income in the Past 12 Months (in 2022 Inflation-Adjusted Dollars) for the Population 15 Years and Over (Black or African American Alone)",1,TRUE
+"Aggregate Income in the Past 12 Months (in 2022 Inflation-Adjusted Dollars) for the Population 15 Years and Over (Hispanic or Latino)",1,TRUE
+"Aggregate Income in the Past 12 Months (in 2022 Inflation-Adjusted Dollars) for the Population 15 Years and Over (Some Other Race Alone)",1,TRUE
+"Aggregate Income in the Past 12 Months (in 2022 Inflation-Adjusted Dollars) for the Population 15 Years and Over (Two or More Races)",1,TRUE
+"Aggregate Income in the Past 12 Months (in 2022 Inflation-Adjusted Dollars) for the Population 15 Years and Over (White Alone)",1,TRUE
+"Aggregate Income in the Past 12 Months (in 2022 Inflation-Adjusted Dollars) for the Population 15 Years and Over (White Alone, Not Hispanic or Latino)",1,TRUE
+"Aggregate Interest, Dividends, or Net Rental Income in the Past 12 Months (in 2022 Inflation-Adjusted Dollars) for Households",1,TRUE
+"Aggregate Nonfamily Household Income in the Past 12 Months (in 2022 Inflation-Adjusted Dollars)",1,TRUE
+"Aggregate Number of Rooms",1,TRUE
+"Aggregate Number of Rooms by Tenure",3,TRUE
+"Aggregate Number of Vehicles Available by Tenure",3,TRUE
+"Aggregate Other Types of Income in the Past 12 Months (in 2022 Inflation-Adjusted Dollars) for Households",1,TRUE
+"Aggregate Price Asked (Dollars)",1,TRUE
+"Aggregate Public Assistance Income in the Past 12 Months (in 2022 Inflation-Adjusted Dollars) for Households",1,TRUE
+"Aggregate Rent Asked (Dollars)",1,TRUE
+"Aggregate Retirement Income in the Past 12 Months (in 2022 Inflation-Adjusted Dollars) for Households",1,TRUE
+"Aggregate Selected Monthly Owner Costs (Dollars) by Mortgage Status",3,TRUE
+"Aggregate Self-Employment Income in the Past 12 Months (in 2022 Inflation-Adjusted Dollars) for Households",1,TRUE
+"Aggregate Social Security Income in the Past 12 Months (in 2022 Inflation-Adjusted Dollars) for Households",1,TRUE
+"Aggregate Supplemental Security Income (SSI) in the Past 12 Months (in 2022 Inflation-Adjusted Dollars) for Households",1,TRUE
+"Aggregate Travel Time to Work (in Minutes) of Workers by Means of Transportation to Work",12,TRUE
+"Aggregate Travel Time to Work (in Minutes) of Workers by Travel Time to Work",10,TRUE
+"Aggregate Value (Dollars) by Age of Householder",5,TRUE
+"Aggregate Value (Dollars) by Mortgage Status",3,TRUE
+"Aggregate Value (Dollars) by Units in Structure",8,TRUE
+"Aggregate Wage or Salary Income in the Past 12 Months (in 2022 Inflation-Adjusted Dollars) for Households",1,TRUE
+"Allocation of Ability to Speak English for the Population 5 Years and Over",5,TRUE
+"Allocation of Age",3,TRUE
+"Allocation of Bedrooms",3,TRUE
+"Allocation of Citizenship Status",7,TRUE
+"Allocation of Class of Worker for the Civilian Employed Population 16 Years and Over",3,TRUE
+"Allocation of Contract Rent",3,TRUE
+"Allocation of Earnings in the Past 12 Months for the Population 16 Years and Over - Percent of Earnings Allocated",8,TRUE
+"Allocation of Educational Attainment for the Population 25 Years and Over",3,TRUE
+"Allocation of Employment Status for the Population 16 Years and Over",3,TRUE
+"Allocation of Family Income in the Past 12 Months -- Percent of Income Allocated",8,TRUE
+"Allocation of Field of Degree for the Population 25 Years and Over",3,TRUE
+"Allocation of Grade Enrolled for the Population 3 Years and Over Enrolled in School",3,TRUE
+"Allocation of Grandparents Living With Grandchildren Under 18 Years",3,TRUE
+"Allocation of Grandparents Responsible for Grandchildren Under 18 Years",3,TRUE
+"Allocation of Gross Rent",3,TRUE
+"Allocation of Hispanic or Latino Origin",3,TRUE
+"Allocation of House Heating Fuel",3,TRUE
+"Allocation of Household Computer Type",9,TRUE
+"Allocation of Household Income in the Past 12 Months - Percent of Income Allocated",8,TRUE
+"Allocation of Household Internet Access",3,TRUE
+"Allocation of Household Internet Subscription Type",5,TRUE
+"Allocation of Individuals' Income in the Past 12 Months for the Population 15 Years and Over - Percent of Income Allocated",8,TRUE
+"Allocation of Industry for the Civilian Employed Population 16 Years and Over",3,TRUE
+"Allocation of Kitchen Facilities",3,TRUE
+"Allocation of Language Spoken at Home for the Population 5 Years and Over",7,TRUE
+"Allocation of Language Status for the Population 5 Years and Over",3,TRUE
+"Allocation of Length of Time Grandparent Responsible for Own Grandchildren Under 18 Years for the Population 30 Years and Over",7,TRUE
+"Allocation of Marital Status for the Population 15 Years and Over",3,TRUE
+"Allocation of Meals Included in Rent",3,TRUE
+"Allocation of Means of Transportation to Work",3,TRUE
+"Allocation of Mobility Status for the Population 1 Year and Over",3,TRUE
+"Allocation of Mortgage Status",3,TRUE
+"Allocation of Mortgage Status and Selected Monthly Owner Costs",7,TRUE
+"Allocation of Nonfamily Household Income in the Past 12 Months -- Percent of Income Allocated",8,TRUE
+"Allocation of Occupation for the Civilian Employed Population 16 Years and Over",3,TRUE
+"Allocation of Period of Military Service for Civilian Veterans 18 Years and Over",3,TRUE
+"Allocation of Place of Birth",3,TRUE
+"Allocation of Place of Work",5,TRUE
+"Allocation of Plumbing Facilities",3,TRUE
+"Allocation of Poverty Status in the Past 12 Months for Families",15,TRUE
+"Allocation of Poverty Status in the Past 12 Months for Unrelated Individuals",15,TRUE
+"Allocation of Price Asked",3,TRUE
+"Allocation of Private Vehicle Occupancy",5,TRUE
+"Allocation of Race",3,TRUE
+"Allocation of Relationship",3,TRUE
+"Allocation of Rent Asked",3,TRUE
+"Allocation of Residence 1 Year Ago for the Population 1 Year and Over",7,TRUE
+"Allocation of Rooms",3,TRUE
+"Allocation of School Enrollment for the Population 3 Years and Over",3,TRUE
+"Allocation of Sex",3,TRUE
+"Allocation of Telephone Service Available",3,TRUE
+"Allocation of Tenure",3,TRUE
+"Allocation of Time of Departure to Go to Work",5,TRUE
+"Allocation of Travel Time to Work",5,TRUE
+"Allocation of Units in Structure",3,TRUE
+"Allocation of Usual Hours Worked per Week in the Past 12 Months for the Population 16 Years and Over",5,TRUE
+"Allocation of Vacancy Status",3,TRUE
+"Allocation of Value",3,TRUE
+"Allocation of Vehicles Available",3,TRUE
+"Allocation of Veteran Status for the Population 18 Years and Over",3,TRUE
+"Allocation of Weeks Worked in the Past 12 Months for the Population 16 Years and Over",5,TRUE
+"Allocation of Work Status in the Past 12 Months for the Population 16 Years and Over",3,TRUE
+"Allocation of Year Householder Moved Into Unit",3,TRUE
+"Allocation of Year Structure Built",3,TRUE
+"Allocation of Year of Entry",7,TRUE
+"Allocation of Year of Naturalization",3,TRUE
+"American Indian and Alaska Native Alone or in Combination With One or More Other Races",1,TRUE
+"Asian Alone or in Combination With One or More Other Races",1,TRUE
+"Average Household Size of Occupied Housing Units by Tenure",3,TRUE
+"Average Household Size of Occupied Housing Units by Tenure (American Indian and Alaska Native Alone Householder)",3,TRUE
+"Average Household Size of Occupied Housing Units by Tenure (Asian Alone Householder)",3,TRUE
+"Average Household Size of Occupied Housing Units by Tenure (Black or African American Alone Householder)",3,TRUE
+"Average Household Size of Occupied Housing Units by Tenure (Hispanic or Latino Householder)",3,TRUE
+"Average Household Size of Occupied Housing Units by Tenure (Native Hawaiian and Other Pacific Islander Alone Householder)",3,TRUE
+"Average Household Size of Occupied Housing Units by Tenure (Some Other Race Alone Householder)",3,TRUE
+"Average Household Size of Occupied Housing Units by Tenure (Two or More Races Householder)",3,TRUE
+"Average Household Size of Occupied Housing Units by Tenure (White Alone Householder)",3,TRUE
+"Average Household Size of Occupied Housing Units by Tenure (White Alone, Not Hispanic or Latino Householder)",3,TRUE
+"Bedrooms",7,TRUE
+"Bedrooms by Gross Rent",37,TRUE
+"Bedrooms by Occupancy Status",9,TRUE
+"Black or African American Alone or in Combination With One or More Other Races",1,TRUE
+"Citizen, Voting-Age Population by Age",5,TRUE
+"Citizen, Voting-Age Population by Educational Attainment",8,TRUE
+"Citizen, Voting-Age Population by Poverty Status",3,TRUE
+"Cohabiting Couple Households by Presence and Age of Own Children Under 18 Years",8,TRUE
+"Computers in Household",7,TRUE
+"Contract Rent",27,TRUE
+"Detailed Race",21,TRUE
+"Earnings in the Past 12 Months for Households",3,TRUE
+"Educational Attainment by Presence of a Computer and Types of Internet Subscription in Household",19,TRUE
+"Educational Attainment for the Population 25 Years and Over",25,TRUE
+"Employment Status for the Population 16 Years and Over",7,TRUE
+"Family Income in the Past 12 Months (in 2022 Inflation-Adjusted Dollars)",17,TRUE
+"Family Size by Cash Public Assistance Income or Households Receiving Food Stamps/SNAP Benefits in the Past 12 Months",21,TRUE
+"Family Type by Presence and Age of Own Children Under 18 Years",20,TRUE
+"Family Type by Presence and Age of Related Children Under 18 Years",20,TRUE
+"Field of Bachelor's Degree for First Major for the Population 25 Years and Over",6,TRUE
+"Field of Bachelor's Degree for First Major the Population 25 Years and Over (American Indian and Alaska Native Alone)",6,TRUE
+"Field of Bachelor's Degree for First Major the Population 25 Years and Over (Asian Alone)",6,TRUE
+"Field of Bachelor's Degree for First Major the Population 25 Years and Over (Black or African American Alone)",6,TRUE
+"Field of Bachelor's Degree for First Major the Population 25 Years and Over (Hispanic or Latino)",6,TRUE
+"Field of Bachelor's Degree for First Major the Population 25 Years and Over (Native Hawaiian and Other Pacific Islander Alone)",6,TRUE
+"Field of Bachelor's Degree for First Major the Population 25 Years and Over (Some Other Race Alone)",6,TRUE
+"Field of Bachelor's Degree for First Major the Population 25 Years and Over (Two or More Races)",6,TRUE
+"Field of Bachelor's Degree for First Major the Population 25 Years and Over (White Alone)",6,TRUE
+"Field of Bachelor's Degree for First Major the Population 25 Years and Over (White Alone, Not Hispanic or Latino)",6,TRUE
+"Full-Time, Year-Round Work Status in the Past 12 Months by Age for the Population 16 Years and Over",36,TRUE
+"Geographical Mobility in the Past Year for Current Residence--Metropolitan Statistical Area Level in the United States",14,TRUE
+"Geographical Mobility in the Past Year for Current Residence--Micropolitan Statistical Area Level in the United States",14,TRUE
+"Geographical Mobility in the Past Year for Current Residence--Not Metropolitan or Micropolitan Statistical Area Level in the United States",11,TRUE
+"Gross Rent",27,TRUE
+"Gross Rent as a Percentage of Household Income in the Past 12 Months",11,TRUE
+"Hispanic or Latino Origin",3,TRUE
+"Hispanic or Latino Origin by Race",21,TRUE
+"House Heating Fuel",10,TRUE
+"Household Income by Gross Rent as a Percentage of Household Income in the Past 12 Months",64,TRUE
+"Household Income in the Last 12 Months (in 2022 Inflation-Adjusted Dollars) by Presence and Type of Internet Subscription in Household",25,TRUE
+"Household Income in the Past 12 Months (in 2022 Inflation-Adjusted Dollars)",17,TRUE
+"Household Language by Household Limited English Speaking Status",14,TRUE
+"Household Type (Including Living Alone)",9,TRUE
+"Household Type (Including Living Alone) (American Indian and Alaska Native Alone)",9,TRUE
+"Household Type (Including Living Alone) (Asian Alone)",9,TRUE
+"Household Type (Including Living Alone) (Black or African American Alone)",9,TRUE
+"Household Type (Including Living Alone) (Hispanic or Latino)",9,TRUE
+"Household Type (Including Living Alone) (Native Hawaiian and Other Pacific Islander Alone)",9,TRUE
+"Household Type (Including Living Alone) (Some Other Race Alone)",9,TRUE
+"Household Type (Including Living Alone) (Two or More Races)",9,TRUE
+"Household Type (Including Living Alone) (White Alone)",9,TRUE
+"Household Type (Including Living Alone) (White Alone, Not Hispanic or Latino)",9,TRUE
+"Household Type (Including Living Alone) by Relationship",26,TRUE
+"Household Type by Household Size",16,TRUE
+"Household Type by Relatives and Nonrelatives for Population in Households",12,TRUE
+"Household Type by Relatives and Nonrelatives for Population in Households (American Indian and Alaska Native Alone)",12,TRUE
+"Household Type by Relatives and Nonrelatives for Population in Households (Asian Alone)",12,TRUE
+"Household Type by Relatives and Nonrelatives for Population in Households (Black or African American Alone)",12,TRUE
+"Household Type by Relatives and Nonrelatives for Population in Households (Hispanic or Latino)",12,TRUE
+"Household Type by Relatives and Nonrelatives for Population in Households (Native Hawaiian and Other Pacific Islander Alone)",12,TRUE
+"Household Type by Relatives and Nonrelatives for Population in Households (Some Other Race Alone)",12,TRUE
+"Household Type by Relatives and Nonrelatives for Population in Households (Two or More Races)",12,TRUE
+"Household Type by Relatives and Nonrelatives for Population in Households (White Alone)",12,TRUE
+"Household Type by Relatives and Nonrelatives for Population in Households (White Alone, Not Hispanic or Latino)",12,TRUE
+"Households by Presence of Nonrelatives",3,TRUE
+"Households by Presence of People 60 Years and Over by Household Type",15,TRUE
+"Households by Presence of People 65 Years and Over, Household Size and Household Type",11,TRUE
+"Households by Presence of People Under 18 Years by Household Type",19,TRUE
+"Households by Type",17,TRUE
+"Housing Costs as a Percentage of Household Income in the Past 12 Months",13,TRUE
+"Housing Units",1,TRUE
+"Inclusion of Utilities in Rent",3,TRUE
+"Interest, Dividends, or Net Rental Income in the Past 12 Months for Households",3,TRUE
+"Internet Subscriptions in Household",8,TRUE
+"Kitchen Facilities by Meals Included in Rent",7,TRUE
+"Kitchen Facilities for All Housing Units",3,TRUE
+"Labor Force Status by Presence of a Computer and Types of Internet Subscription in Household",20,TRUE
+"Living Arrangements of Adults 18 Years and Over by Age",28,TRUE
+"Lower Contract Rent Quartile (Dollars)",1,TRUE
+"Lower Gross Rent Quartile (Dollars)",1,TRUE
+"Lower Value Quartile (Dollars)",1,TRUE
+"Means of Transportation to Work",21,TRUE
+"Means of Transportation to Work by Travel Time to Work",120,TRUE
+"Median Age by Sex",3,TRUE
+"Median Age by Sex (American Indian and Alaska Native Alone)",3,TRUE
+"Median Age by Sex (Asian Alone)",3,TRUE
+"Median Age by Sex (Black or African American Alone)",3,TRUE
+"Median Age by Sex (Hispanic or Latino)",3,TRUE
+"Median Age by Sex (Native Hawaiian and Other Pacific Islander Alone)",3,TRUE
+"Median Age by Sex (Some Other Race Alone)",3,TRUE
+"Median Age by Sex (Two or More Races)",3,TRUE
+"Median Age by Sex (White Alone)",3,TRUE
+"Median Age by Sex (White Alone, Not Hispanic or Latino)",3,TRUE
+"Median Contract Rent (Dollars)",1,TRUE
+"Median Earnings in the Past 12 Months (in 2022 Inflation-Adjusted Dollars) by Sex by Work Experience in the Past 12 Months for the Population 16 Years and Over With Earnings in the Past 12 Months",7,TRUE
+"Median Earnings in the Past 12 Months (in 2022 Inflation-Adjusted Dollars) by Sex for the Population 16 Years and Over With Earnings in the Past 12 Months",3,TRUE
+"Median Family Income in the Past 12 Months (in 2022 Inflation-Adjusted Dollars)",1,TRUE
+"Median Gross Rent (Dollars)",1,TRUE
+"Median Gross Rent as a Percentage of Household Income in the Past 12 Months (Dollars)",1,TRUE
+"Median Household Income for Households With a Citizen, Voting-Age Householder (in 2022 Inflation-Adjusted Dollars)",1,TRUE
+"Median Household Income in the Past 12 Months (in 2022 Inflation-Adjusted Dollars)",1,TRUE
+"Median Household Income in the Past 12 Months (in 2022 Inflation-Adjusted Dollars) by Age of Householder",5,TRUE
+"Median Nonfamily Household Income in the Past 12 Months (in 2022 Inflation-Adjusted Dollars)",1,TRUE
+"Median Number of Rooms",1,TRUE
+"Median Number of Rooms by Tenure",3,TRUE
+"Median Selected Monthly Owner Costs (Dollars) by Mortgage Status",3,TRUE
+"Median Selected Monthly Owner Costs as a Percentage of Household Income in the Past 12 Months",3,TRUE
+"Median Value (Dollars)",1,TRUE
+"Median Value (Dollars) for Mobile Homes",1,TRUE
+"Median Value (Dollars, American Indian and Alaska Native Alone Householder)",1,TRUE
+"Median Value (Dollars, Asian Alone Householder)",1,TRUE
+"Median Value (Dollars, Black or African American Alone Householder)",1,TRUE
+"Median Value (Dollars, Hispanic or Latino Householder)",1,TRUE
+"Median Value (Dollars, Some Other Race Alone Householder)",1,TRUE
+"Median Value (Dollars, Two or More Races Householder)",1,TRUE
+"Median Value (Dollars, White Alone Householder)",1,TRUE
+"Median Value (Dollars, White Alone, Not Hispanic or Latino Householder)",1,TRUE
+"Median Year Householder Moved Into Unit by Tenure",3,TRUE
+"Median Year Structure Built",1,TRUE
+"Median Year Structure Built by Tenure",3,TRUE
+"Mortgage Status",9,TRUE
+"Mortgage Status and Selected Monthly Owner Costs",39,TRUE
+"Mortgage Status by Selected Monthly Owner Costs as a Percentage of Household Income in the Past 12 Months",23,TRUE
+"Native Hawaiian and Other Pacific Islander Alone or in Combination With One or More Other Races",1,TRUE
+"Nonfamily Household Income in the Past 12 Months (in 2022 Inflation-Adjusted Dollars)",17,TRUE
+"Occupancy Status",3,TRUE
+"Other Types of Income in the Past 12 Months for Households",3,TRUE
+"Own Children Under 18 Years by Family Type and Age",20,TRUE
+"Per Capita Income in the Past 12 Months (in 2022 Inflation-Adjusted Dollars)",1,TRUE
+"Per Capita Income in the Past 12 Months (in 2022 Inflation-Adjusted Dollars) (American Indian and Alaska Native Alone)",1,TRUE
+"Per Capita Income in the Past 12 Months (in 2022 Inflation-Adjusted Dollars) (Asian Alone)",1,TRUE
+"Per Capita Income in the Past 12 Months (in 2022 Inflation-Adjusted Dollars) (Black or African American Alone)",1,TRUE
+"Per Capita Income in the Past 12 Months (in 2022 Inflation-Adjusted Dollars) (Hispanic or Latino)",1,TRUE
+"Per Capita Income in the Past 12 Months (in 2022 Inflation-Adjusted Dollars) (Some Other Race Alone)",1,TRUE
+"Per Capita Income in the Past 12 Months (in 2022 Inflation-Adjusted Dollars) (Two or More Races)",1,TRUE
+"Per Capita Income in the Past 12 Months (in 2022 Inflation-Adjusted Dollars) (White Alone)",1,TRUE
+"Per Capita Income in the Past 12 Months (in 2022 Inflation-Adjusted Dollars) (White Alone, Not Hispanic or Latino)",1,TRUE
+"Period of Military Service for Civilian Veterans 18 Years and Over",16,TRUE
+"Place of Work for Workers 16 Years and Over--Metropolitan Statistical Area Level",23,TRUE
+"Place of Work for Workers 16 Years and Over--Micropolitan Statistical Area Level",23,TRUE
+"Place of Work for Workers 16 Years and Over--Not Metropolitan or Micropolitan Statistical Area Level",8,TRUE
+"Plumbing Facilities by Occupants per Room by Year Structure Built",19,TRUE
+"Plumbing Facilities for All Housing Units",3,TRUE
+"Poverty Status in the Past 12 Months by Disability Status by Employment Status for the Population 20 to 64 Years",31,TRUE
+"Poverty Status in the Past 12 Months by Household Type by Age of Householder",59,TRUE
+"Poverty Status in the Past 12 Months of Families by Family Type by Presence of Related Children Under 18 Years by Age of Related Children",41,TRUE
+"Poverty Status in the Past 12 Months of People in Housing Units",3,TRUE
+"Poverty Status of Individuals in the Past 12 Months by Living Arrangement",35,TRUE
+"Presence and Types of Internet Subscriptions in Household",13,TRUE
+"Presence of Own Children Under 18 Years by Age of Own Children Under 18 Years by Employment Status for Females 20 to 64 Years",30,TRUE
+"Presence of Own Children Under 18 Years by Family Type by Employment Status",59,TRUE
+"Presence of Own Children Under 18 Years by Family Type by Number of Workers in Family in the Past 12 Months",43,TRUE
+"Presence of a Computer and Type of Internet Subscription in Household",16,TRUE
+"Presence of a Computer and Type of Internet Subscription in Household (American Indian and Alaska Native Alone)",6,TRUE
+"Presence of a Computer and Type of Internet Subscription in Household (Asian Alone)",6,TRUE
+"Presence of a Computer and Type of Internet Subscription in Household (Black or African American Alone)",6,TRUE
+"Presence of a Computer and Type of Internet Subscription in Household (Hispanic or Latino)",6,TRUE
+"Presence of a Computer and Type of Internet Subscription in Household (Native Hawaiian and Other Pacific Islander Alone)",6,TRUE
+"Presence of a Computer and Type of Internet Subscription in Household (Some Other Race Alone)",6,TRUE
+"Presence of a Computer and Type of Internet Subscription in Household (Two or More Races)",6,TRUE
+"Presence of a Computer and Type of Internet Subscription in Household (White Alone)",6,TRUE
+"Presence of a Computer and Type of Internet Subscription in Household (White Alone, Not Hispanic or Latino)",6,TRUE
+"Price Asked",27,TRUE
+"Public Assistance Income in the Past 12 Months for Households",3,TRUE
+"Public Assistance Income or Food Stamps/SNAP in the Past 12 Months for Households",3,TRUE
+"Race",10,TRUE
+"Race of Householder",10,TRUE
+"Ratio of Income to Poverty Level in the Past 12 Months",8,TRUE
+"Receipt of Food Stamps/SNAP in the Past 12 Months by Disability Status for Households",7,TRUE
+"Relationship by Household Type (Including Living Alone) for the Population 65 Years and Over",21,TRUE
+"Relationship to Householder for Children Under 18 Years in Households",8,TRUE
+"Rent Asked",25,TRUE
+"Retirement Income in the Past 12 Months for Households",3,TRUE
+"Rooms",10,TRUE
+"School Enrollment by Detailed Level of School for the Population 3 Years and Over",19,TRUE
+"School Enrollment by Detailed Level of School for the Population 3 Years and Over (American Indian and Alaska Native Alone)",19,TRUE
+"School Enrollment by Detailed Level of School for the Population 3 Years and Over (Asian Alone)",19,TRUE
+"School Enrollment by Detailed Level of School for the Population 3 Years and Over (Black or African American Alone)",19,TRUE
+"School Enrollment by Detailed Level of School for the Population 3 Years and Over (Hispanic or Latino)",19,TRUE
+"School Enrollment by Detailed Level of School for the Population 3 Years and Over (Native Hawaiian and Other Pacific Islander Alone)",19,TRUE
+"School Enrollment by Detailed Level of School for the Population 3 Years and Over (Some Other Race Alone)",19,TRUE
+"School Enrollment by Detailed Level of School for the Population 3 Years and Over (Two or More Races)",19,TRUE
+"School Enrollment by Detailed Level of School for the Population 3 Years and Over (White Alone)",19,TRUE
+"School Enrollment by Detailed Level of School for the Population 3 Years and Over (White Alone, Not Hispanic or Latino)",19,TRUE
+"Self-Employment Income in the Past 12 Months for Households",3,TRUE
+"Sex by Age",49,TRUE
+"Sex by Age by Field of Bachelor's Degree for First Major for the Population 25 Years and Over",39,TRUE
+"Sex by Age by Veteran Status for the Civilian Population 18 Years and Over",39,TRUE
+"Sex by Class of Worker for the Civilian Employed Population 16 Years and Over",21,TRUE
+"Sex by Earnings in the Past 12 Months (in 2022 Inflation-Adjusted Dollars) for the Population 16 Years and Over With Earnings in the Past 12 Months",43,TRUE
+"Sex by Educational Attainment for the Population 25 Years and Over",35,TRUE
+"Sex by Industry for the Civilian Employed Population 16 Years and Over",55,TRUE
+"Sex by Marital Status for the Population 15 Years and Over",19,TRUE
+"Sex by Occupation for the Civilian Employed Population 16 Years and Over",73,TRUE
+"Sex by Occupation for the Civilian Employed Population 16 Years and Over (American Indian and Alaska Native Alone)",13,TRUE
+"Sex by Occupation for the Civilian Employed Population 16 Years and Over (Asian Alone)",13,TRUE
+"Sex by Occupation for the Civilian Employed Population 16 Years and Over (Black or African American Alone)",13,TRUE
+"Sex by Occupation for the Civilian Employed Population 16 Years and Over (Hispanic or Latino)",13,TRUE
+"Sex by Occupation for the Civilian Employed Population 16 Years and Over (Native Hawaiian and Other Pacific Islander Alone)",13,TRUE
+"Sex by Occupation for the Civilian Employed Population 16 Years and Over (Some Other Race Alone)",13,TRUE
+"Sex by Occupation for the Civilian Employed Population 16 Years and Over (Two or More Races)",13,TRUE
+"Sex by Occupation for the Civilian Employed Population 16 Years and Over (White Alone)",13,TRUE
+"Sex by Occupation for the Civilian Employed Population 16 Years and Over (White Alone, Not Hispanic or Latino)",13,TRUE
+"Sex by Occupation for the Full-Time, Year-Round Civilian Employed Population 16 Years and Over",73,TRUE
+"Sex by School Enrollment by Educational Attainment by Employment Status for the Population 16 to 19 Years",29,TRUE
+"Sex by School Enrollment by Level of School by Type of School for the Population 3 Years and Over",49,TRUE
+"Sex by Work Status in the Past 12 Months by Usual Hours Worked per Week in the Past 12 Months by Weeks Worked in the Past 12 Months for the Population 16 to 64 Years",49,TRUE
+"Sex by Work Status in the Past 12 Months by Usual Hours Worked per Week in the Past 12 Months by Weeks Worked in the Past 12 Months for the Population 65 Years and Over",49,TRUE
+"Sex of Workers by Place of Work--Minor Civil Division Level for 12 Selected States (CT, ME, MA, MI, MN, NH, NJ, NY, PA, RI, VT, WI)",15,TRUE
+"Sex of Workers by Place of Work--Place Level",15,TRUE
+"Sex of Workers by Place of Work--State and County Level",15,TRUE
+"Social Security Income in the Past 12 Months for Households",3,TRUE
+"Some Other Race Alone or in Combination With One or More Other Races",1,TRUE
+"Structure Type by Occupancy Status",13,TRUE
+"Supplemental Security Income (SSI) in the Past 12 Months for Households",3,TRUE
+"Tenure",3,TRUE
+"Tenure (American Indian and Alaska Native Alone Householder)",3,TRUE
+"Tenure (Asian Alone Householder)",3,TRUE
+"Tenure (Black or African American Alone Householder)",3,TRUE
+"Tenure (Hispanic or Latino Householder)",3,TRUE
+"Tenure (Native Hawaiian and Other Pacific Islander Alone Householder)",3,TRUE
+"Tenure (Some Other Race Alone Householder)",3,TRUE
+"Tenure (Two or More Races Householder)",3,TRUE
+"Tenure (White Alone Householder)",3,TRUE
+"Tenure (White Alone, Not Hispanic or Latino Householder)",3,TRUE
+"Tenure by Age of Householder",21,TRUE
+"Tenure by Age of Householder by Occupants per Room",27,TRUE
+"Tenure by Bedrooms",15,TRUE
+"Tenure by Household Size",17,TRUE
+"Tenure by Kitchen Facilities",7,TRUE
+"Tenure by Occupants per Room",13,TRUE
+"Tenure by Plumbing Facilities",7,TRUE
+"Tenure by Plumbing Facilities by Occupants per Room",19,TRUE
+"Tenure by Rooms",21,TRUE
+"Tenure by Telephone Service Available by Age of Householder",19,TRUE
+"Tenure by Units in Structure",23,TRUE
+"Tenure by Vehicles Available",15,TRUE
+"Tenure by Vehicles Available by Age of Householder",19,TRUE
+"Tenure by Year Householder Moved Into Unit",15,TRUE
+"Tenure by Year Structure Built",23,TRUE
+"Time of Departure to Go to Work",15,TRUE
+"Total Fields of Bachelor's Degrees Reported",16,TRUE
+"Total Population",1,TRUE
+"Total Population in Occupied Housing Units by Tenure",3,TRUE
+"Total Population in Occupied Housing Units by Tenure (American Indian and Alaska Native Alone Householder)",3,TRUE
+"Total Population in Occupied Housing Units by Tenure (Asian Alone Householder)",3,TRUE
+"Total Population in Occupied Housing Units by Tenure (Black or African American Alone Householder)",3,TRUE
+"Total Population in Occupied Housing Units by Tenure (Hispanic or Latino Householder)",3,TRUE
+"Total Population in Occupied Housing Units by Tenure (Native Hawaiian and Other Pacific Islander Alone Householder)",3,TRUE
+"Total Population in Occupied Housing Units by Tenure (Some Other Race Alone Householder)",3,TRUE
+"Total Population in Occupied Housing Units by Tenure (Two or More Races Householder)",3,TRUE
+"Total Population in Occupied Housing Units by Tenure (White Alone Householder)",3,TRUE
+"Total Population in Occupied Housing Units by Tenure (White Alone, Not Hispanic or Latino Householder)",3,TRUE
+"Total Population in Occupied Housing Units by Tenure by Units in Structure",13,TRUE
+"Travel Time to Work",13,TRUE
+"Types of Computers in Household",11,TRUE
+"Types of Health Insurance Coverage by Age",66,TRUE
+"Units in Structure",11,TRUE
+"Upper Contract Rent Quartile (Dollars)",1,TRUE
+"Upper Gross Rent Quartile (Dollars)",1,TRUE
+"Upper Value Quartile (Dollars)",1,TRUE
+"Vacancy Status",8,TRUE
+"Value",27,TRUE
+"Wage or Salary Income in the Past 12 Months for Households",3,TRUE
+"White Alone or in Combination With One or More Other Races",1,TRUE
+"Year Structure Built",11,TRUE

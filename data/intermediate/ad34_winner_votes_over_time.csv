@@ -1,0 +1,37 @@
+file,election_date,date,office,winner_name,winner_votes,year,month,election_type,office_clean
+00400200000Queens Mayor Citywide EDLevel_AD34.csv,General Election 2021 - 11/02/2021,2021-11-02,Mayor,Eric L. Adams,7218,2021,Nov,General,Mayor
+00400300000Queens Public Advocate Citywide EDLevel_AD34.csv,General Election 2021 - 11/02/2021,2021-11-02,Public Advocate,Jumaane D. Williams,7460,2021,Nov,General,Public Advocate
+00400400000Queens City Comptroller Citywide EDLevel_AD34.csv,General Election 2021 - 11/02/2021,2021-11-02,City Comptroller,Brad Lander,7519,2021,Nov,General,NYC Comptroller
+00400500013Queens Borough President Queens EDLevel_AD34.csv,General Election 2021 - 11/02/2021,2021-11-02,Borough President,Donovan J. Richards Jr.,7947,2021,Nov,General,Borough President
+00400700021Queens Member of the City Council 21st Council District EDLevel_AD34.csv,General Election 2021 - 11/02/2021,2021-11-02,Member of the City Council,Francisco P. Moya,1110,2021,Nov,General,City Council
+00400700022Queens Member of the City Council 22nd Council District EDLevel_AD34.csv,General Election 2021 - 11/02/2021,2021-11-02,Member of the City Council,Tiffany Caban,547,2021,Nov,General,City Council
+00400700025Queens Member of the City Council 25th Council District EDLevel_AD34.csv,General Election 2021 - 11/02/2021,2021-11-02,Member of the City Council,Shekar Krishnan,4309,2021,Nov,General,City Council
+00400700026Queens Member of the City Council 26th Council District EDLevel_AD34.csv,General Election 2021 - 11/02/2021,2021-11-02,Member of the City Council,Julie Won,1137,2021,Nov,General,City Council
+00400700030Queens Member of the City Council 30th Council District EDLevel_AD34.csv,General Election 2021 - 11/02/2021,2021-11-02,Member of the City Council,Robert F. Holden,81,2021,Nov,General,City Council
+00400200000Queens Governor Lieutenant Governor Citywide EDLevel_AD34.csv,General Election - 11/08/2022,2022-11-08,Governor/Lieutenant Governor,Kathy C. Hochul / Antonio Delgado,14780,2022,Nov,General,Governor
+00400500000Queens State Comptroller Citywide EDLevel_AD34.csv,General Election - 11/08/2022,2022-11-08,State Comptroller,Thomas P. DiNapoli,14786,2022,Nov,General,State Comptroller
+00400600000Queens Attorney General Citywide EDLevel_AD34.csv,General Election - 11/08/2022,2022-11-08,Attorney General,Letitia A. James,14712,2022,Nov,General,Attorney General
+00400700000Queens United States Senator Citywide EDLevel_AD34.csv,General Election - 11/08/2022,2022-11-08,United States Senator,Charles E. Schumer,15404,2022,Nov,General,State Senate
+00401800006Queens Representative in Congress 6th Congressional District EDLevel_AD34.csv,General Election - 11/08/2022,2022-11-08,Representative in Congress,Grace Meng,1941,2022,Nov,General,Congress
+00401800007Queens Representative in Congress 7th Congressional District EDLevel_AD34.csv,General Election - 11/08/2022,2022-11-08,Representative in Congress,Nydia M. Velazquez,797,2022,Nov,General,Congress
+00401800014Queens Representative in Congress 14th Congressional District EDLevel_AD34.csv,General Election - 11/08/2022,2022-11-08,Representative in Congress,Alexandria Ocasio-Cortez,11841,2022,Nov,General,Congress
+00401900011Queens State Senator 11th Senatorial District EDLevel_AD34.csv,General Election - 11/08/2022,2022-11-08,State Senator,Toby Ann Stavisky,1335,2022,Nov,General,State Senate
+00401900012Queens State Senator 12th Senatorial District EDLevel_AD34.csv,General Election - 11/08/2022,2022-11-08,State Senator,Michael N. Gianaris,6907,2022,Nov,General,State Senate
+00401900013Queens State Senator 13th Senatorial District EDLevel_AD34.csv,General Election - 11/08/2022,2022-11-08,State Senator,Jessica Ramos,7665,2022,Nov,General,State Senate
+00401900059Queens State Senator 59th Senatorial District EDLevel_AD34.csv,General Election - 11/08/2022,2022-11-08,State Senator,Kristen S. Gonzalez,542,2022,Nov,General,State Senate
+00402000034Queens Member of the Assembly 34th Assembly District EDLevel_AD34.csv,General Election - 11/08/2022,2022-11-08,Member of the Assembly,Jessica Gonzalez-Rojas,16451,2022,Nov,General,Assembly
+01408500006Queens Democratic Delegate to National Convention 6th Congressional District EDLevel_AD34.csv,Presidential Primary - 04/02/2024,2024-04-02,Delegate to National Convention,Sandra S. Mandell,192,2024,Apr,General,Delegate to National Convention
+01408500007Queens Democratic Delegate to National Convention 7th Congressional District EDLevel_AD34.csv,Presidential Primary - 04/02/2024,2024-04-02,Delegate to National Convention,Rosa H. Cruz,116,2024,Apr,General,Delegate to National Convention
+01408500014Queens Democratic Delegate to National Convention 14th Congressional District EDLevel_AD34.csv,Presidential Primary - 04/02/2024,2024-04-02,Delegate to National Convention,Amanda C. Farias,1218,2024,Apr,General,Delegate to National Convention
+01402900034Queens Democratic State Committee 34th Assembly District EDLevel_AD34.csv,Primary Election 2024 - 06/25/2024,2024-06-25,State Committee,Carolina Korth,2077,2024,Jun,Primary,State Committee
+0140490034BQueens Democratic District Leader Democratic Leadership District 34 Part B EDLevel_AD34.csv,Primary Election 2024 - 06/25/2024,2024-06-25,District Leader,Monica V. Valdes,1071,2024,Jun,Primary,District Leader
+00400100000Queens President Vice President Citywide EDLevel_AD34.csv,General Election 2024 - 11/05/2024,2024-11-05,President/Vice President,Kamala D. Harris / Tim Walz,22754,2024,Nov,General,President
+00400800000Queens United States Senator Citywide EDLevel_AD34.csv,General Election 2024 - 11/05/2024,2024-11-05,United States Senator,Kirsten E. Gillibrand,23580,2024,Nov,General,State Senate
+00401900006Queens Representative in Congress 6th Congressional District EDLevel_AD34.csv,General Election 2024 - 11/05/2024,2024-11-05,Representative in Congress,Grace Meng,336,2024,Nov,General,Congress
+00401900007Queens Representative in Congress 7th Congressional District EDLevel_AD34.csv,General Election 2024 - 11/05/2024,2024-11-05,Representative in Congress,Nydia M. Velazquez,1722,2024,Nov,General,Congress
+00401900014Queens Representative in Congress 14th Congressional District EDLevel_AD34.csv,General Election 2024 - 11/05/2024,2024-11-05,Representative in Congress,Alexandria Ocasio-Cortez,21049,2024,Nov,General,Congress
+00402000011Queens State Senator 11th Senatorial District EDLevel_AD34.csv,General Election 2024 - 11/05/2024,2024-11-05,State Senator,Toby Ann Stavisky,1512,2024,Nov,General,State Senate
+00402000012Queens State Senator 12th Senatorial District EDLevel_AD34.csv,General Election 2024 - 11/05/2024,2024-11-05,State Senator,Michael N. Gianaris,10854,2024,Nov,General,State Senate
+00402000013Queens State Senator 13th Senatorial District EDLevel_AD34.csv,General Election 2024 - 11/05/2024,2024-11-05,State Senator,Jessica Ramos,13374,2024,Nov,General,State Senate
+00402100034Queens Member of the Assembly 34th Assembly District EDLevel_AD34.csv,General Election 2024 - 11/05/2024,2024-11-05,Member of the Assembly,Jessica Gonzalez-Rojas,26635,2024,Nov,General,Assembly
+AD34_Mayor_ENR_2025,General Election - 11/04/2025,2025-11-04,Mayor,Zohran Kwame Mamdani,13238,2025,Nov,General,Mayor

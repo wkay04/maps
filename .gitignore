@@ -1,0 +1,20 @@
+# R session files
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+# macOS system files
+.DS_Store
+
+# Environment files (may contain API keys)
+.Renviron
+
+# Large data files
+data/raw/
+cache/
+*.zip
+207966-V1/
+
+# Output files (regenerable)
+outputs/

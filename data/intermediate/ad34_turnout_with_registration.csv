@@ -1,0 +1,11 @@
+date,year,election_type,top_office,avg_turnout,month,total_registered,source,notes,turnout_pct,election_label
+2021-06-22,2021,Primary,Judge of the Civil Court - County,8755,NA,75000,estimated,Based on 2020 Census CVAP (~107k) and typical NYC registration rate (70%),11.673333333333332,Judge of the Civil Court - County
+2021-11-02,2021,General,Mayor,10084.1875,NA,75000,estimated,Based on 2020 Census CVAP (~107k) and typical NYC registration rate (70%),13.445583333333333,Mayoral
+2022-06-28,2022,Primary,Governor,3749.6,NA,76500,estimated,Estimated 2% annual growth in registration,4.9014379084967326,Gubernatorial
+2022-08-23,2022,General,U.S. Congress,234,NA,76500,estimated,Estimated 2% annual growth in registration,0.3058823529411765,U.S. Congress
+2022-11-08,2022,General,Governor,18619.555555555555,NA,76500,estimated,Estimated 2% annual growth in registration,24.33928830791576,Gubernatorial
+2024-04-02,2024,General,President,2146.6,NA,79500,estimated,Estimated 2% annual growth in registration,2.7001257861635217,Presidential
+2024-06-25,2024,Primary,Surrogate,4600.2,NA,79500,estimated,Estimated 2% annual growth in registration,5.786415094339622,Surrogate
+2024-11-05,2024,General,President,39358.5,NA,79500,estimated,Estimated 2% annual growth in registration,49.507547169811325,Presidential
+2025-06-24,2025,Primary,Judge of the Civil Court - County,7513.333333333333,NA,81000,estimated,Estimated 2% annual growth in registration,9.275720164609053,Judge of the Civil Court - County
+2025-11-04,2025,General,Mayor,30258,Nov,81000,estimated,Estimated 2% annual growth in registration,37.355555555555554,Mayoral
