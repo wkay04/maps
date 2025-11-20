@@ -61,7 +61,7 @@ create_popup <- function(ed) {
       </h3>
 
       <div style="padding: 10px;">
-        <h4 style="margin: 10px 0 5px 0; color: #1e3a8a; font-size: 14px; border-bottom: 2px solid #3b82f6;">🗳️ Election Results</h4>
+        <h4 style="margin: 10px 0 5px 0; color: #1e3a8a; font-size: 14px; border-bottom: 2px solid #3b82f6;">Election Results</h4>
         <table style="width: 100%%; font-size: 13px; line-height: 1.6;">
           <tr><td><strong>Zohran Support:</strong></td><td style="text-align: right;"><span style="color: %s; font-weight: bold;">%.1f%%</span></td></tr>
           <tr><td><strong>Zohran Votes:</strong></td><td style="text-align: right;">%s</td></tr>
@@ -70,7 +70,7 @@ create_popup <- function(ed) {
           <tr><td><strong>Registered Voters:</strong></td><td style="text-align: right;">%s</td></tr>
         </table>
 
-        <h4 style="margin: 15px 0 5px 0; color: #1e3a8a; font-size: 14px; border-bottom: 2px solid #3b82f6;">👥 Demographics</h4>
+        <h4 style="margin: 15px 0 5px 0; color: #1e3a8a; font-size: 14px; border-bottom: 2px solid #3b82f6;">Demographics</h4>
         <table style="width: 100%%; font-size: 13px; line-height: 1.6;">
           <tr><td>Hispanic:</td><td style="text-align: right;">%.0f%%</td></tr>
           <tr><td>White (NH):</td><td style="text-align: right;">%.0f%%</td></tr>
@@ -79,14 +79,14 @@ create_popup <- function(ed) {
           <tr><td>Foreign Born:</td><td style="text-align: right;">%.0f%%</td></tr>
         </table>
 
-        <h4 style="margin: 15px 0 5px 0; color: #1e3a8a; font-size: 14px; border-bottom: 2px solid #3b82f6;">💼 Socioeconomic</h4>
+        <h4 style="margin: 15px 0 5px 0; color: #1e3a8a; font-size: 14px; border-bottom: 2px solid #3b82f6;">Socioeconomic</h4>
         <table style="width: 100%%; font-size: 13px; line-height: 1.6;">
           <tr><td>College Degree+:</td><td style="text-align: right;">%.0f%%</td></tr>
           <tr><td>Median Income:</td><td style="text-align: right;">%s</td></tr>
           <tr><td>Median Age:</td><td style="text-align: right;">%.0f years</td></tr>
         </table>
 
-        <h4 style="margin: 15px 0 5px 0; color: #1e3a8a; font-size: 14px; border-bottom: 2px solid #3b82f6;">🎯 Strategic Classification</h4>
+        <h4 style="margin: 15px 0 5px 0; color: #1e3a8a; font-size: 14px; border-bottom: 2px solid #3b82f6;">Strategic Classification</h4>
         <div style="padding: 8px; background: %s; border-radius: 4px; color: white; font-weight: bold; text-align: center;">
           %s
         </div>
