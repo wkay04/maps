@@ -121,6 +121,9 @@ map <- leaflet(ad34_wgs84) %>%
     overlayGroups = c("AD34 Boundary", "Subway Lines", "Bus Routes"),
     options = layersControlOptions(collapsed = FALSE)
   ) %>%
+  # Hide subway and bus layers by default
+  hideGroup("Subway Lines") %>%
+  hideGroup("Bus Routes") %>%
   addResetMapButton() %>%
   htmlwidgets::onRender("
     function(el, x) {
