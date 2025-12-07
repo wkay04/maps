@@ -40,7 +40,8 @@
       "Bash(npm view:*)",
       "Bash(gh repo view:*)",
       "WebFetch(domain:data.ny.gov)",
-      "Bash(unzip:*)"
+      "Bash(unzip:*)",
+      "WebFetch(domain:www.mta.info)"
     ],
     "deny": [],
     "ask": []
