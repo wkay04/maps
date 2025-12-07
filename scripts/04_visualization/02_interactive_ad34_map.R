@@ -28,8 +28,7 @@ cat("Creating interactive map...\n")
 
 # Create interactive Leaflet map with search functionality
 map <- leaflet(ad34_wgs84) %>%
-  addProviderTiles(providers$CartoDB.Positron,
-                   options = providerTileOptions(minZoom = 10, maxZoom = 18)) %>%
+  addTiles() %>%
   addPolygons(
     fillColor = "#2E86AB",
     fillOpacity = 0.3,
@@ -41,40 +40,21 @@ map <- leaflet(ad34_wgs84) %>%
       color = "#A23B72",
       fillOpacity = 0.5,
       bringToFront = TRUE
-    ),
-    label = "NYC Assembly District 34",
-    labelOptions = labelOptions(
-      style = list("font-weight" = "normal", padding = "3px 8px"),
-      textsize = "14px",
-      direction = "auto"
-    ),
-    popup = paste0(
-      "<b>NYC Assembly District 34</b><br>",
-      "Queens County<br>",
-      "Communities: Jackson Heights, Corona, East Elmhurst, Astoria"
     )
   ) %>%
   addScaleBar(position = "bottomleft") %>%
-  addControl(
-    html = "<div style='background: white; padding: 10px; border-radius: 5px; border: 2px solid #A23B72;'>
-            <h4 style='margin: 0 0 5px 0;'>NYC Assembly District 34</h4>
-            <p style='margin: 0; font-size: 12px;'>Queens County</p>
-            </div>",
-    position = "topright"
-  ) %>%
-  # Add geocoding search using OpenStreetMap Nominatim (free, no API key needed)
   addSearchOSM(
     options = searchOptions(
       position = "topleft",
       zoom = 17,
-      textPlaceholder = "Search for an address in Queens...",
+      textPlaceholder = "Search for an address",
       moveToLocation = TRUE,
       autoCollapse = TRUE,
       minLength = 3
     )
   ) %>%
-  # Add reset map view button
   addResetMapButton()
+  
 
 # Ensure docs directory exists
 dir.create("docs", showWarnings = FALSE, recursive = TRUE)
