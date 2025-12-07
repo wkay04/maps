@@ -81,28 +81,28 @@ map <- leaflet(ad34_wgs84) %>%
       )
     )
   ) %>%
-  # Add subway lines
+  # Add subway lines with official MTA colors
   addPolylines(
     data = subway_lines,
-    color = "#FF6319",
+    color = ~paste0("#", route_color),
     weight = 3,
     opacity = 0.8,
     group = "Subway Lines",
-    popup = ~paste0("<b>Subway Line</b><br>",
-                    "Route: ", route_short_name, "<br>",
+    popup = ~paste0("<b>", route_short_name, " Train</b><br>",
                     route_long_name)
   ) %>%
-  # Add bus routes
-  addPolylines(
-    data = bus_routes,
-    color = "#0039A6",
-    weight = 2,
-    opacity = 0.7,
-    group = "Bus Routes",
-    popup = ~paste0("<b>Bus Route</b><br>",
-                    "Route: ", route_short_name, "<br>",
-                    route_long_name)
-  ) %>%
+  # Add bus routes (if any exist)
+  {if(nrow(bus_routes) > 0) {
+    addPolylines(.,
+      data = bus_routes,
+      color = "#0039A6",
+      weight = 2,
+      opacity = 0.7,
+      group = "Bus Routes",
+      popup = ~paste0("<b>Bus Route ", route_short_name, "</b><br>",
+                      route_long_name)
+    )
+  } else .} %>%
   # Add layer control
   addLayersControl(
     baseGroups = c("Base Map"),
