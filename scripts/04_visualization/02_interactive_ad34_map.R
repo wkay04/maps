@@ -26,6 +26,13 @@ ad34_wgs84 <- st_transform(ad34, 4326)
 
 cat("Creating interactive map...\n")
 
+# Load transit GeoJSON data
+cat("Loading transit data...\n")
+subway_lines <- st_read("data/raw/transit/subway_lines.geojson", quiet = TRUE)
+bus_routes <- st_read("data/raw/transit/bus_routes.geojson", quiet = TRUE)
+
+cat("Loaded", nrow(subway_lines), "subway lines and", nrow(bus_routes), "bus routes\n")
+
 # Create interactive Leaflet map with search functionality
 map <- leaflet(ad34_wgs84) %>%
   addTiles(group = "Base Map", options = providerTileOptions(minZoom = 8, maxZoom = 20)) %>%
@@ -73,6 +80,34 @@ map <- leaflet(ad34_wgs84) %>%
         circle = list(radius = 0, weight = 0, color = "transparent", stroke = FALSE, fill = FALSE)
       )
     )
+  ) %>%
+  # Add subway lines
+  addPolylines(
+    data = subway_lines,
+    color = "#FF6319",
+    weight = 3,
+    opacity = 0.8,
+    group = "Subway Lines",
+    popup = ~paste0("<b>Subway Line</b><br>",
+                    "Route: ", route_short_name, "<br>",
+                    route_long_name)
+  ) %>%
+  # Add bus routes
+  addPolylines(
+    data = bus_routes,
+    color = "#0039A6",
+    weight = 2,
+    opacity = 0.7,
+    group = "Bus Routes",
+    popup = ~paste0("<b>Bus Route</b><br>",
+                    "Route: ", route_short_name, "<br>",
+                    route_long_name)
+  ) %>%
+  # Add layer control
+  addLayersControl(
+    baseGroups = c("Base Map"),
+    overlayGroups = c("AD34 Boundary", "Subway Lines", "Bus Routes"),
+    options = layersControlOptions(collapsed = FALSE)
   ) %>%
   addResetMapButton() %>%
   htmlwidgets::onRender("
@@ -140,82 +175,6 @@ map <- leaflet(ad34_wgs84) %>%
           customSearchMarker.bindPopup(e.text).openPopup();
         }
       });
-
-      // Create layer groups for transit
-      var subwayLayer = L.layerGroup();
-      var busLayer = L.layerGroup();
-
-      // Load subway lines from local MTA GTFS data
-      console.log('Loading subway data...');
-      fetch('transit_data/subway_lines.geojson')
-        .then(response => {
-          console.log('Subway response status:', response.status);
-          if (!response.ok) throw new Error('HTTP error ' + response.status);
-          return response.json();
-        })
-        .then(data => {
-          console.log('Subway data loaded:', data.features ? data.features.length + ' features' : 'raw data');
-
-          L.geoJSON(data, {
-            style: function(feature) {
-              return {
-                color: '#FF6319',
-                weight: 3,
-                opacity: 0.8
-              };
-            },
-            onEachFeature: function(feature, layer) {
-              if (feature.properties) {
-                var popupContent = '<b>Subway Line</b><br>';
-                if (feature.properties.route_short_name) popupContent += 'Route: ' + feature.properties.route_short_name + '<br>';
-                if (feature.properties.route_long_name) popupContent += feature.properties.route_long_name;
-                layer.bindPopup(popupContent);
-              }
-            }
-          }).addTo(subwayLayer);
-          console.log('Subway layer created with', subwayLayer.getLayers().length, 'features');
-        })
-        .catch(err => console.error('Error loading subway data:', err));
-
-      // Load bus routes from local MTA GTFS data
-      console.log('Loading bus data...');
-      fetch('transit_data/bus_routes.geojson')
-        .then(response => {
-          console.log('Bus response status:', response.status);
-          if (!response.ok) throw new Error('HTTP error ' + response.status);
-          return response.json();
-        })
-        .then(data => {
-          console.log('Bus data loaded:', data.features ? data.features.length + ' features' : 'raw data');
-
-          L.geoJSON(data, {
-            style: function(feature) {
-              return {
-                color: '#0039A6',
-                weight: 2,
-                opacity: 0.7
-              };
-            },
-            onEachFeature: function(feature, layer) {
-              if (feature.properties) {
-                var popupContent = '<b>Bus Route</b><br>';
-                if (feature.properties.route_short_name) popupContent += 'Route: ' + feature.properties.route_short_name + '<br>';
-                if (feature.properties.route_long_name) popupContent += feature.properties.route_long_name;
-                layer.bindPopup(popupContent);
-              }
-            }
-          }).addTo(busLayer);
-          console.log('Bus layer created with', busLayer.getLayers().length, 'features');
-        })
-        .catch(err => console.error('Error loading bus data:', err));
-
-      // Add layer control
-      var overlays = {
-        'Subway Lines': subwayLayer,
-        'Bus Routes': busLayer
-      };
-
-      L.control.layers(null, overlays, {collapsed: false}).addTo(map);
     }
   ")
   
