@@ -1,22 +1,78 @@
-# NYC Assembly District 34 Analysis
+# NYC Assembly District 34 - Election & Demographics Analysis
 
-A comprehensive demographic and election analysis project for Queens Assembly District 34 using American Community Survey data and election results.
+Interactive analysis of Assembly District 34 (Queens, NY) for the 2025 Democratic Mayoral Primary, combining Census demographics with election results.
+
+## 🗺️ Interactive Map
+
+**[View Live Interactive Map →](https://[YOUR-USERNAME].github.io/ad34-analysis/)**
+
+Click on any Election District to see:
+- Election results (Zohran support %, turnout %)
+- Demographics (race/ethnicity, foreign-born %)
+- Socioeconomic indicators (education, income, age)
+- Strategic classification (mobilization targets)
+
+Color-coded by Zohran support level (red = low, green = high).
 
 ## Overview
 
-This R-based analysis project generates detailed demographic chartbooks, election maps, and comparative analyses for NYC Assembly District 34 (Queens). The project combines Census Bureau data with election results to create publication-ready visualizations and reports.
+This R-based analysis project generates detailed demographic chartbooks, election maps, correlation analysis, and strategic recommendations for NYC Assembly District 34 (Queens). The project combines Census Bureau ACS data with 2025 election results to create publication-ready visualizations and actionable political strategy.
+
+## 📊 Key Findings
+
+### Path to Victory: The 11 High Support/Low Turnout EDs
+
+**The Bottom Line:** The election will be won or lost in 11 Election Districts with:
+- **61% Hispanic, 59% foreign-born** population
+- **63% support** for progressive candidates
+- **Only 35% turnout** (15 points below base areas)
+
+**Opportunity:** If these areas reach 45% turnout = **+3,000 votes cast, +820 net votes**
+
+### Strategic Quadrants
+
+| Quadrant | EDs | Registered | Turnout | Support | Strategy |
+|----------|-----|------------|---------|---------|----------|
+| 🟢 High Supp, High Turn | 18 | 27,365 | 49% | 63% | **Protect base** (25% resources) |
+| 🟠 High Supp, Low Turn | 11 | 12,291 | 35% | 63% | **MOBILIZE** (50% resources) ⭐ |
+| 🟣 Low Supp, High Turn | 11 | 10,736 | 48% | 47% | **Persuade** (25% resources) |
+| 🔴 Low Supp, Low Turn | 17 | 18,589 | 30% | 50% | **Long-term** (0% resources) |
+
+### Demographics & Turnout Correlations
+
+**What Drives Turnout:**
+- **Education (+0.68)**: College-educated areas vote at much higher rates
+- **Hispanic % (-0.62)**: Hispanic neighborhoods have significantly lower turnout
+- **Foreign-Born % (-0.58)**: Immigrant communities face turnout barriers
+- **White (NH) % (+0.63)**: White areas have higher participation
+
+**What Drives Support:**
+- **Age (-0.19)**: Younger areas = higher support
+- **College Education (+0.21)**: Slight positive correlation
+
+**Key Insight:** The candidate who builds the best bilingual field operation wins AD34.
 
 ## Key Outputs
 
-### Demographic Chartbooks
-- **Mobility & Housing Edition**: Transit patterns, housing costs, homeownership rates, and ancestry composition
-- **Comprehensive Demographics**: Population, age, race/ethnicity, income, education, and nativity
-- **District Comparisons**: Side-by-side analysis of AD34 vs neighboring districts
+### Interactive Tools
+- **Interactive Leaflet Map**: Click EDs for detailed demographics & results (`docs/index.html`)
+- **HTML Demographics Dashboard**: 8 visualizations with correlation analysis
 
-### Election Visualizations
-- **Winner Maps**: Precinct-level election results with color-coded winners
-- **Turnout Analysis**: Voter participation patterns across the district
-- **Historical Comparisons**: Multi-election trend analysis
+### Strategic Analysis
+- **Path to Victory Report**: Detailed strategic recommendations (Markdown)
+- **Census-Election Correlation**: Full demographic correlation matrix (CSV)
+- **Demographic Profiles**: By strategic quadrant (CSV)
+
+### Static Maps
+- Path to Victory map (4 strategic quadrants, color-coded)
+- Turnout by ED
+- Zohran vote share by ED
+- Support/Turnout classification
+
+### Demographic Chartbooks
+- **Mobility & Housing Edition**: Transit patterns, housing costs, homeownership rates
+- **Comprehensive Demographics**: Population, age, race/ethnicity, income, education, nativity
+- **District Comparisons**: Side-by-side analysis of AD34 vs neighboring districts
 
 ## Project Structure
 
