@@ -30,7 +30,7 @@ cat("Creating interactive map...\n")
 map <- leaflet(ad34_wgs84) %>%
   addTiles() %>%
   addPolygons(
-    fillColor = "#0095A0",
+    fillColor = "#FFAA3B",
     fillOpacity = 0.3,
     color = "#FFAA3B",
     weight = 3,
