@@ -99,6 +99,18 @@ map <- leaflet(ad34_wgs84) %>%
       weight = 2,
       opacity = 0.7,
       group = "Bus Routes",
+      label = ~route_short_name,
+      labelOptions = labelOptions(
+        noHide = TRUE,
+        direction = "center",
+        textOnly = TRUE,
+        style = list(
+          "color" = "#0039A6",
+          "font-weight" = "bold",
+          "font-size" = "10px",
+          "text-shadow" = "1px 1px 2px white, -1px -1px 2px white, 1px -1px 2px white, -1px 1px 2px white"
+        )
+      ),
       popup = ~paste0("<b>Bus Route ", route_short_name, "</b><br>",
                       route_long_name)
     )
