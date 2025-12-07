@@ -1,11 +1,12 @@
 # Interactive Leaflet Map of Assembly District 34
-# Creates an embeddable HTML map for GitHub Pages
+# Creates an embeddable HTML map for GitHub Pages with address search
 
 library(tidyverse)
 library(sf)
 library(tigris)
 library(tidycensus)
 library(leaflet)
+library(leaflet.extras)
 library(htmlwidgets)
 
 # Set working directory
@@ -25,7 +26,7 @@ ad34_wgs84 <- st_transform(ad34, 4326)
 
 cat("Creating interactive map...\n")
 
-# Create interactive Leaflet map
+# Create interactive Leaflet map with search functionality
 map <- leaflet(ad34_wgs84) %>%
   addProviderTiles(providers$CartoDB.Positron,
                    options = providerTileOptions(minZoom = 10, maxZoom = 18)) %>%
@@ -60,7 +61,20 @@ map <- leaflet(ad34_wgs84) %>%
             <p style='margin: 0; font-size: 12px;'>Queens County</p>
             </div>",
     position = "topright"
-  )
+  ) %>%
+  # Add geocoding search using OpenStreetMap Nominatim (free, no API key needed)
+  addSearchOSM(
+    options = searchOptions(
+      position = "topleft",
+      zoom = 17,
+      textPlaceholder = "Search for an address in Queens...",
+      moveToLocation = TRUE,
+      autoCollapse = TRUE,
+      minLength = 3
+    )
+  ) %>%
+  # Add reset map view button
+  addResetMapButton()
 
 # Ensure docs directory exists
 dir.create("docs", showWarnings = FALSE, recursive = TRUE)
