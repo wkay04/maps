@@ -36,6 +36,7 @@ cat("Loaded", nrow(subway_lines), "subway lines and", nrow(bus_routes), "bus rou
 # Create interactive Leaflet map with search functionality
 map <- leaflet(ad34_wgs84) %>%
   addTiles(group = "Base Map", options = providerTileOptions(minZoom = 8, maxZoom = 20)) %>%
+  setView(lat= "40.763" , lng= "-73.898", zoom= 13)%>%
   addPolygons(
     fillColor = "#0095A0",
     fillOpacity = 0.5,
@@ -81,6 +82,7 @@ map <- leaflet(ad34_wgs84) %>%
       )
     )
   ) %>%
+
   # Add subway lines with official MTA colors
   addPolylines(
     data = subway_lines,
